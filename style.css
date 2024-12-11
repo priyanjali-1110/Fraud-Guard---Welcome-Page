@@ -1,0 +1,85 @@
+ body{
+    font-family: 'Arial, sans-serif';
+    background: linear-gradient(120deg,#1d3557,#457b9d);
+    color: black;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://t4.ftcdn.net/jpg/04/88/06/55/360_F_488065538_8c8VgyQjc5EroxagDRDAFKEEjSukjUge.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.welcome-container{
+    text-align: center;
+    background: #457b9d;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px;
+    width: 90%;
+    max-width: 500px;
+}
+h1{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+h1 span{
+    color: bisque;
+}
+p{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+button{
+    background: wheat;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: lem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background: #e76f51;
+}
+.navbar{
+    background: rgb(53, 53, 123);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li{
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: lem;
+    transition: color 0.3s ease;
+}
+.navbar ul li a:hover{
+    color: aqua;
+}
+.welcome-container{
+    margin-top: 60px;
+}
